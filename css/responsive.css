@@ -6,6 +6,36 @@
 }
 
 
+    
+@media only screen and (max-width: 370px) and (min-width: 300px){
+    .star-rating > ul > li {
+        font-size: 13px !important;
+    }
+
+    .offer-votes span {
+        font-size: 12px !important;
+    }
+
+    .payments-block {
+        font-size: 10px;
+    }
+
+    .payments-block > p > img{
+        width: 18px;
+    }
+
+    .welcome-bonus-block span {
+        font-size: 15px;
+    }
+
+    .offer-btn {
+        width: 10rem;
+        height: 35px;
+        font-size: 13px;
+    }
+}
+
+
 
 @media (max-width: 599px){
     .footer {
@@ -171,7 +201,7 @@
     }
 
     .offer-logo {
-        top: 0px;
+        top: 12px;
     }
 
     .star-rating > ul > li {

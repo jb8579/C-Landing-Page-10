@@ -850,23 +850,23 @@ text-decoration: none;
 
 .flag {
     position: absolute;
-    padding: 5px 10px;
+    padding: 4px 35px;
     background-color: #F91C5F;
-    color:#ffffff;
-    top: -5px;
+    color: #ffffff;
+    top: -14px;
     left: -10px;
     border-radius: 5px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 700;
+    z-index: 99;
 }
 
 @media (max-width: 767px) {
     .flag {
-    padding: 4px 10px;
-    top: -4px;
-    left: 0px;
-    border-radius: 3px;
-    font-size: 14px;
+        padding: 4px 20px;
+        top: -10px;
+        left: 0px;
+        border-radius: 3px;
     }
     .mobile-link {
     display: block;
